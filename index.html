@@ -1,0 +1,1049 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ra mắt Serum Dr.Forskin 7in1 phiên bản 2.0</title>
+<style>
+  :root {
+    --bg: #f5f7fa;
+    --card: #ffffff;
+    --border: #e2e8f0;
+    --text: #1e293b;
+    --muted: #64748b;
+    --blue: #2563eb;
+    --blue-light: #eff6ff;
+    --green: #059669;
+    --green-light: #ecfdf5;
+    --amber: #d97706;
+    --amber-light: #fffbeb;
+    --violet: #7c3aed;
+    --violet-light: #f5f3ff;
+    --red: #dc2626;
+    --red-light: #fef2f2;
+    --shadow: 0 1px 4px rgba(0,0,0,.06), 0 4px 20px rgba(0,0,0,.05);
+    --shadow-lg: 0 16px 54px rgba(15,23,42,.14);
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+  }
+  img { max-width: 100%; display: block; }
+  button { font: inherit; }
+  strong { color: var(--text); }
+
+  .nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    min-height: 82px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 0 24px;
+    background: #fff;
+    border-bottom: 1px solid var(--border);
+    box-shadow: 0 1px 10px rgba(0,0,0,.07);
+  }
+  .nav-logo-wrap {
+    display: flex;
+    align-items: center;
+    padding-right: 16px;
+    border-right: 1px solid var(--border);
+  }
+  .nav-logo { height: 58px; width: auto; object-fit: contain; }
+  .nav-tabs { display: flex; gap: 4px; overflow-x: auto; }
+  .nav-tab {
+    border: 0;
+    border-radius: 9px;
+    background: transparent;
+    color: var(--muted);
+    padding: 8px 13px;
+    font-size: 13px;
+    font-weight: 800;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  .nav-tab.active { color: #fff; background: var(--blue); }
+  .nav-date {
+    margin-left: auto;
+    padding: 6px 14px;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    background: var(--bg);
+    color: var(--muted);
+    font-size: 12px;
+    font-weight: 800;
+    white-space: nowrap;
+  }
+
+  .page { display: none; min-height: calc(100vh - 62px); }
+  .page.active { display: block; animation: fadeIn .22s ease; }
+  @keyframes fadeIn { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+
+  .container { width: min(1160px, calc(100% - 48px)); margin: 0 auto; }
+  .section { padding: 36px 0 58px; }
+  .section-label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 18px;
+    color: var(--blue);
+    font-size: 11px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  .section-label::after { content: ""; flex: 1; height: 1px; background: var(--border); }
+  .section-title { font-size: clamp(25px, 3vw, 38px); line-height: 1.18; font-weight: 950; letter-spacing: 0; margin-bottom: 10px; }
+  .section-sub { max-width: 820px; color: var(--muted); font-size: 15px; margin-bottom: 24px; }
+  .grid-2 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+  .grid-3 { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+  .grid-4 { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; }
+  .card {
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    box-shadow: var(--shadow);
+    padding: 24px;
+  }
+  .card h3 { font-size: 18px; line-height: 1.3; margin-bottom: 10px; }
+  .card p { color: var(--muted); }
+  .card.dark { color: #fff; background: linear-gradient(135deg, #0f172a, #075985); border-color: rgba(255,255,255,.16); }
+  .card.dark p, .card.dark li, .card.dark strong { color: #e0f2fe; }
+  .list { list-style: none; display: flex; flex-direction: column; gap: 9px; }
+  .list li {
+    position: relative;
+    padding-left: 18px;
+    color: var(--muted);
+    font-size: 14px;
+  }
+  .list li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: .72em;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--blue);
+  }
+
+  /* Page 1 */
+  .hero-split {
+    display: grid;
+    grid-template-columns: .92fr 1.08fr;
+    min-height: 610px;
+    background: #071f3d;
+  }
+  .hero-copy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 64px clamp(28px, 5vw, 72px);
+    color: #fff;
+  }
+  .hero-eyebrow {
+    width: fit-content;
+    margin-bottom: 18px;
+    padding: 8px 13px;
+    border-radius: 999px;
+    border: 1px solid rgba(255,255,255,.25);
+    color: #bfdbfe;
+    font-size: 11px;
+    font-weight: 950;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  .hero-title {
+    max-width: 660px;
+    color: #fff;
+    font-size: clamp(38px, 5vw, 66px);
+    line-height: 1.02;
+    letter-spacing: 0;
+    margin-bottom: 18px;
+  }
+  .hero-title span { color: #fcd34d; }
+  .hero-lead { max-width: 620px; color: #dbeafe; font-size: 17px; margin-bottom: 28px; }
+  .hero-lead strong { color: #fff; font-weight: 950; }
+  .hero-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 28px;
+    background: #041a33;
+  }
+  .hero-image img {
+    width: 100%;
+    max-height: 560px;
+    object-fit: contain;
+    border-radius: 18px;
+    box-shadow: var(--shadow-lg);
+  }
+  .target-row {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 12px;
+  }
+  .target-card {
+    padding: 20px;
+    border-radius: 16px;
+    background: rgba(255,255,255,.1);
+    border: 1px solid rgba(255,255,255,.18);
+  }
+  .target-card b { display: block; color: #fff; font-size: 28px; line-height: 1.05; margin-bottom: 7px; }
+  .target-card span { color: #cbd5e1; font-size: 13px; }
+
+  .name-grid {
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+    gap: 18px;
+    align-items: stretch;
+  }
+  .replace-card {
+    padding: 26px;
+    border-radius: 18px;
+    border: 2px solid #bfdbfe;
+    background: #fff;
+    box-shadow: var(--shadow);
+  }
+  .replace-flow {
+    display: grid;
+    grid-template-columns: 1fr auto 1.2fr;
+    gap: 14px;
+    align-items: center;
+    margin-top: 16px;
+  }
+  .old-name, .new-name {
+    min-height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 16px;
+    padding: 16px;
+    font-size: 19px;
+    font-weight: 950;
+  }
+  .old-name { color: #991b1b; background: var(--red-light); text-decoration: line-through; opacity: .72; }
+  .new-name { color: #1d4ed8; background: var(--blue-light); }
+  .arrow { color: var(--blue); font-size: 30px; font-weight: 950; }
+
+  .channel-heading {
+    margin: 32px 0 16px;
+    padding: 13px 18px;
+    border-radius: 14px;
+    color: #fff;
+    background: linear-gradient(90deg, #1d4ed8, #0284c7);
+    font-size: 18px;
+    font-weight: 950;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+  }
+  .channel-heading.offline { background: linear-gradient(90deg, #047857, #0f766e); }
+  .channel-heading.online { background: linear-gradient(90deg, #1d4ed8, #0284c7); }
+  .channel-section {
+    overflow: hidden;
+    margin-bottom: 18px;
+    border-radius: 18px;
+    background: #fff;
+    border: 1px solid var(--border);
+    box-shadow: var(--shadow);
+  }
+  .channel-header {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 18px 22px;
+    border-bottom: 1px solid var(--border);
+  }
+  .ch-icon {
+    width: 46px;
+    height: 46px;
+    border-radius: 14px;
+    display: grid;
+    place-items: center;
+    background: var(--blue-light);
+    color: var(--blue);
+    font-size: 22px;
+    font-weight: 950;
+  }
+  .ch-title { font-size: 17px; font-weight: 950; }
+  .ch-sub { color: var(--muted); font-size: 13px; margin-top: 2px; }
+  .ch-icon-wrap {
+    width: 46px;
+    height: 46px;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    flex-shrink: 0;
+  }
+  .ch-meta { flex: 1; }
+  .channel-body-split {
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+  }
+  .channel-desc ul { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+  .channel-desc li { display: flex; gap: 10px; align-items: flex-start; color: var(--muted); font-size: 13.5px; line-height: 1.65; }
+  .li-dot { width: 7px; height: 7px; border-radius: 50%; margin-top: 7px; flex-shrink: 0; }
+  .channel-body {
+    display: grid;
+    grid-template-columns: .92fr 1.08fr;
+  }
+  .channel-desc { padding: 22px 24px; border-right: 1px solid var(--border); }
+  .channel-visual { min-height: 280px; background: #e0f2fe; }
+  .channel-visual > img { width: 100%; height: 100%; min-height: 280px; object-fit: contain; background: #f8fafc; }
+
+  .mockup { position: relative; overflow: hidden; background: #e2e8f0; }
+  .mockup .base { width: 100%; height: 100%; min-height: 280px; object-fit: cover; }
+  .mockup .replace-img { position: absolute; object-fit: cover; box-shadow: 0 8px 28px rgba(15,23,42,.22); }
+  .mockup.fb .replace-img { left: 16.8%; top: 0; width: 67%; height: 38.3%; border-radius: 0 0 6px 6px; }
+  .mockup.web .replace-img { left: 0; top: 11.3%; width: 100%; height: 71.5%; }
+  .mockup.led .replace-img { left: 17.3%; top: 10.3%; width: 52%; height: 68%; border-radius: 3px; }
+
+  .koc-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    padding: 18px 20px 22px;
+  }
+  .koc-frames-outer { padding: 22px 24px; }
+  .koc-frames-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+  .koc-card {
+    overflow: hidden;
+    border-radius: 15px;
+    background: #fff;
+    border: 2px solid var(--border);
+  }
+  .koc-card img { width: 100%; aspect-ratio: 9 / 16; object-fit: cover; }
+  .koc-label {
+    padding: 10px 8px;
+    color: var(--text);
+    background: #fff;
+    border-top: 1px solid var(--border);
+    font-size: 12px;
+    font-weight: 850;
+    text-align: center;
+  }
+  .koc-empty {
+    display: grid;
+    place-items: center;
+    aspect-ratio: 9 / 16;
+    padding: 14px;
+    color: var(--muted);
+    text-align: center;
+    font-size: 12px;
+    font-weight: 850;
+    background: repeating-linear-gradient(45deg, #f8fafc, #f8fafc 10px, #eef2f7 10px, #eef2f7 20px);
+  }
+  .phase-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-top: 16px; }
+  .phase-card {
+    position: relative;
+    overflow: hidden;
+    min-height: 210px;
+    border-radius: 18px;
+    background: #fff;
+    border: 1px solid var(--border);
+    box-shadow: var(--shadow);
+    padding: 22px 20px;
+  }
+  .phase-card::before { content: ""; position: absolute; inset: 0 0 auto 0; height: 4px; background: var(--blue); }
+  .phase-card:nth-child(2)::before { background: var(--green); }
+  .phase-card:nth-child(3)::before { background: var(--amber); }
+  .phase-card:nth-child(4)::before { background: var(--violet); }
+  .phase-badge {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    margin-bottom: 12px;
+    color: var(--blue);
+    background: var(--blue-light);
+    font-weight: 950;
+  }
+  .phase-name { font-size: 17px; font-weight: 950; margin-bottom: 5px; }
+  .phase-period { color: var(--muted); font-size: 12px; font-weight: 850; margin-bottom: 10px; }
+  .phase-desc { color: var(--muted); font-size: 13px; }
+
+  /* Page 2 */
+  .product-hero {
+    display: grid;
+    grid-template-columns: 340px 1fr;
+    gap: 34px;
+    align-items: start;
+    margin-bottom: 24px;
+  }
+  .product-hero-img {
+    overflow: hidden;
+    border-radius: 20px;
+    background: #fff;
+    border: 1px solid var(--border);
+    box-shadow: var(--shadow);
+  }
+  .product-hero-img img { width: 100%; height: auto; object-fit: contain; }
+  .spec-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    margin-top: 16px;
+  }
+  .spec-box {
+    border-radius: 14px;
+    border: 1px solid var(--border);
+    background: #fff;
+    padding: 14px 16px;
+  }
+  .spec-lbl { color: var(--muted); font-size: 11px; font-weight: 900; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 5px; }
+  .spec-val { color: var(--text); font-size: 15px; font-weight: 950; }
+  .spec-val.big { color: var(--blue); font-size: 22px; }
+
+  .difference-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+  .diff-card {
+    overflow: hidden;
+    border-radius: 18px;
+    background: #fff;
+    border: 1px solid var(--border);
+    box-shadow: var(--shadow);
+  }
+  .diff-card img { width: 100%; height: auto; max-height: 430px; object-fit: contain; background: #f8fafc; }
+  .diff-card.pump img { height: auto; max-height: none; object-fit: contain; }
+  .diff-copy { padding: 18px 20px 22px; }
+  .diff-copy h3 { font-size: 18px; margin-bottom: 8px; }
+  .diff-copy p { color: var(--muted); font-size: 14px; }
+
+  .announce-grid {
+    display: grid;
+    grid-template-columns: .8fr 1.2fr;
+    gap: 18px;
+    align-items: stretch;
+    margin-bottom: 24px;
+  }
+  .pdf-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 260px;
+    border-radius: 18px;
+    border: 1px solid #bfdbfe;
+    background: linear-gradient(135deg, #eff6ff, #fff);
+    box-shadow: var(--shadow);
+    padding: 28px;
+  }
+  .pdf-icon { font-size: 46px; margin-bottom: 12px; }
+  .pdf-card a { color: var(--blue); font-weight: 950; text-decoration: none; }
+  .congbo-img {
+    grid-column: 1 / -1;
+    overflow: hidden;
+    border-radius: 18px;
+    border: 1px solid var(--border);
+    background: #fff;
+    box-shadow: var(--shadow);
+  }
+  .congbo-img img { width: 100%; height: auto; object-fit: contain; }
+
+  .key-sales {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+  }
+  .key-card {
+    min-height: 210px;
+    padding: 26px;
+    border-radius: 20px;
+    background: #fff;
+    border: 1px solid var(--border);
+    box-shadow: var(--shadow);
+  }
+  .key-card.primary {
+    grid-column: 1 / -1;
+    color: #fff;
+    background: linear-gradient(135deg, #0f172a, #075985);
+  }
+  .key-card.primary p, .key-card.primary li, .key-card.primary strong { color: #e0f2fe; }
+  .key-title { font-size: clamp(28px, 3.4vw, 46px); line-height: 1.08; font-weight: 950; margin-bottom: 16px; }
+  .key-big { color: var(--blue); font-size: clamp(24px, 3vw, 38px); line-height: 1.05; font-weight: 950; margin-bottom: 10px; }
+  .asset-strip { margin-top: 24px; display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; align-items: start; }
+  .asset-strip img {
+    width: 100%;
+    height: auto;
+    border-radius: 18px;
+    border: 1px solid var(--border);
+    background: #fff;
+    box-shadow: var(--shadow);
+  }
+
+  /* Page 3 */
+  .offer-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; margin-bottom: 20px; }
+  .offer-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 22px;
+    border: 1px solid var(--border);
+    background: #fff;
+    box-shadow: var(--shadow-lg);
+  }
+  .offer-head {
+    padding: 18px 22px;
+    color: #fff;
+    background: linear-gradient(135deg, #b91c1c, #ef4444);
+  }
+  .offer-head.offline { background: linear-gradient(135deg, #0f766e, #14b8a6); }
+  .sales-tip {
+    width: min(560px, 100%);
+    margin: 18px 0 22px;
+    padding: 18px 20px;
+    border-radius: 18px;
+    color: #7f1d1d;
+    background: #fff7ed;
+    border: 1px solid #fed7aa;
+    box-shadow: var(--shadow);
+  }
+  .sales-tip h3 { font-size: 20px; line-height: 1.15; margin-bottom: 8px; }
+  .sales-tip p { color: #9a3412; font-size: 14px; max-width: 520px; }
+  .offer-title { font-size: 19px; font-weight: 950; margin-bottom: 4px; }
+  .offer-price { font-size: 32px; line-height: 1; font-weight: 950; }
+  .offer-body { padding: 22px; }
+  .gift-row { display: grid; gap: 12px; margin: 14px 0 18px; }
+  .gift-box {
+    padding: 16px 18px;
+    border-radius: 14px;
+    border: 1px dashed #93c5fd;
+    background: #eff6ff;
+    color: #1e3a8a;
+    font-weight: 850;
+  }
+  .gift-box.green {
+    border-color: #86efac;
+    background: #ecfdf5;
+    color: #065f46;
+  }
+  .sales-visuals {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 16px;
+    margin-top: 22px;
+  }
+  .sales-shot {
+    overflow: hidden;
+    border-radius: 18px;
+    border: 1px solid var(--border);
+    background: #fff;
+    box-shadow: var(--shadow);
+  }
+  .sales-shot img { width: 100%; height: 330px; object-fit: cover; }
+  .sales-shot div { padding: 13px 16px; font-size: 13px; font-weight: 900; }
+
+  /* Page 4 */
+  .faq-intro {
+    margin-bottom: 20px;
+    padding: 18px 20px;
+    border-radius: 16px;
+    background: var(--violet-light);
+    color: #4c1d95;
+    border: 1px solid #ddd6fe;
+    font-size: 14px;
+  }
+  .faq-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+  .faq-card {
+    border-radius: 18px;
+    border: 1px solid var(--border);
+    border-left: 5px solid var(--violet);
+    background: #fff;
+    box-shadow: var(--shadow);
+    padding: 22px;
+  }
+  .question { color: #5b21b6; font-size: 16px; font-weight: 950; margin-bottom: 12px; }
+  .answer {
+    padding: 15px 16px;
+    border-radius: 14px;
+    border: 1px dashed #c4b5fd;
+    background: #faf5ff;
+    color: #374151;
+    font-size: 14px;
+  }
+  .context-note {
+    margin-top: 10px;
+    color: var(--muted);
+    font-size: 12px;
+    font-style: italic;
+  }
+  .dont-box {
+    margin-top: 18px;
+    padding: 22px;
+    border-radius: 18px;
+    border: 1px solid #fecaca;
+    background: var(--red-light);
+  }
+  .dont-box h3 { color: #991b1b; margin-bottom: 12px; }
+  .dont-box .list li::before { background: var(--red); }
+
+  footer {
+    padding: 34px 24px 48px;
+    color: var(--muted);
+    text-align: center;
+    font-size: 13px;
+  }
+
+  @media (max-width: 980px) {
+    .hero-split, .name-grid, .channel-body, .channel-body-split, .product-hero, .announce-grid, .offer-grid, .faq-grid { grid-template-columns: 1fr; }
+    .target-row, .grid-2, .grid-3, .grid-4, .phase-grid, .difference-grid, .key-sales, .sales-visuals { grid-template-columns: 1fr; }
+    .koc-grid, .koc-frames-row { grid-template-columns: repeat(2, 1fr); }
+    .channel-desc { border-right: 0; border-bottom: 1px solid var(--border); }
+    .key-card.primary { grid-column: auto; }
+  }
+  @media (max-width: 640px) {
+    .nav { height: auto; flex-wrap: wrap; padding: 10px 14px; }
+    .nav-date { width: 100%; margin-left: 0; }
+    .container { width: min(100% - 32px, 1160px); }
+    .hero-copy { padding: 42px 20px; }
+    .replace-flow { grid-template-columns: 1fr; }
+    .arrow { transform: rotate(90deg); text-align: center; }
+    .koc-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+</style>
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-logo-wrap">
+      <img class="nav-logo" src="Campaign RA MẮT SERUM/LOGO_Thuonghieudentuphonglab.png" alt="Dr.Forskin">
+    </div>
+    <div class="nav-tabs">
+      <button class="nav-tab active" data-page="1" onclick="showPage(1, this)">Tổng quan</button>
+      <button class="nav-tab" data-page="2" onclick="showPage(2, this)">Sản phẩm</button>
+      <button class="nav-tab" data-page="3" onclick="showPage(3, this)">Chương trình bán</button>
+      <button class="nav-tab" data-page="4" onclick="showPage(4, this)">Kịch bản xử lý</button>
+    </div>
+    <div class="nav-date">Launch tháng 5/2026</div>
+  </nav>
+
+  <main>
+    <section class="page active" id="page1">
+      <div class="hero-split">
+        <div class="hero-copy">
+          <div class="hero-eyebrow">Ra mắt Serum Dr.Forskin 7in1 phiên bản 2.0</div>
+          <h1 class="hero-title">Một chạm thấm sâu<br><span>Bảy tác động thấu</span></h1>
+          <p class="hero-lead">Chiến dịch đưa <strong>Serum Dr.Forskin 7 trong 1 phiên bản 2.0</strong> trở thành nhận diện chính trên toàn hệ thống, đồng thời tái kích hoạt SKU chủ lực quay trở lại mạnh mẽ cùng định vị thương hiệu mới: hiện đại hơn, có nền tảng công nghệ rõ hơn và đáng tin hơn với khách nam.</p>
+          <div class="target-row">
+            <div class="target-card"><b>800tr</b><span>Doanh thu online tháng 5</span></div>
+            <div class="target-card"><b>2.000 chai</b><span>Peak doanh số toàn hệ thống salon</span></div>
+            <div class="target-card"><b>1 triệu</b><span>Impression trong tháng 5</span></div>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="Campaign RA MẮT SERUM/KeyVisual.jpg" alt="KV chiến dịch Serum Dr.Forskin 7in1 phiên bản 2.0">
+        </div>
+      </div>
+
+      <div class="section container">
+        <div class="section-label">Campaign Overview</div>
+        <div class="name-grid">
+          <div class="replace-card">
+            <h2 class="section-title">Bối cảnh cần chốt</h2>
+            <p class="section-sub">Trong giai đoạn trước, sản phẩm serum 7in1 đã có nền doanh số và tệp khách quen tốt, nhưng cách khách hàng ghi nhớ còn bị phân tán vì vẫn có liên tưởng tới tên DABO. Việc liên tục để khách gọi, tìm kiếm hoặc nhớ sản phẩm theo tên cũ sẽ không có lợi cho Dr.Forskin khi thương hiệu muốn xây dựng <strong>một brand riêng</strong>, <strong>một hệ sản phẩm riêng</strong> và <strong>một tài sản thương hiệu riêng</strong> về dài hạn.</p>
+            <p class="section-sub">Vì vậy, chiến dịch launch 2.0 cần được hiểu là một bước chuyển giao nhận diện có kiểm soát: đưa SKU chủ lực quay trở lại mạnh mẽ dưới tên <strong>Serum Dr.Forskin 7 trong 1 phiên bản 2.0</strong>, đồng thời giữ cảm giác quen thuộc để khách cũ không thấy xa lạ. Nhân sự cần thống nhất cách gọi, cách trưng bày và cách tư vấn: không nhấn vào câu chuyện tên cũ, mà kéo khách về phiên bản mới với <strong>công thức thấm nhanh hơn</strong>, <strong>bao bì Dr.Forskin mới</strong> và <strong>định vị thương hiệu Hàn Quốc đến từ phòng Lab</strong>.</p>
+            <div class="replace-flow">
+              <div class="old-name">DABO / tên gọi cũ</div>
+              <div class="arrow">→</div>
+              <div class="new-name">Serum Dr.Forskin 7 trong 1<br>phiên bản 2.0</div>
+            </div>
+          </div>
+          <div class="card">
+            <h3>Insight bổ sung</h3>
+            <ul class="list">
+              <li>Một khi dùng hợp 1 sản phẩm thì khách nam thường <strong>rất lười thử thứ mới</strong>.</li>
+              <li>Họ bị hút bởi sản phẩm <strong>dễ hiểu, ít bước, nhìn hiện đại, đáng tin</strong>.</li>
+              <li>Họ ngại skincare rườm rà, ngại bết rít, ưu tiên nơi <strong>xuất xứ rõ ràng</strong> vì ngoại hình gắn với thể diện.</li>
+              <li>Đồng thời, họ vẫn thích thứ gì đó <strong>mới, hiện đại, có cảm giác công nghệ</strong> nếu lợi ích được nói đủ dễ hiểu.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="channel-heading online">KÊNH ONLINE</div>
+
+        <div class="channel-section">
+          <div class="channel-header">
+            <div class="ch-icon-wrap" style="background:#eff6ff;">📘</div>
+            <div class="ch-meta">
+              <div class="ch-title">Facebook Page 30Shine Shop</div>
+              <div class="ch-sub">Kéo khách cũ mua lại qua tin nhắn đã phân loại, gắn tag và retarget</div>
+            </div>
+          </div>
+          <div class="channel-body-split">
+            <div class="channel-desc">
+              <ul>
+                <li><div class="li-dot" style="background:var(--blue)"></div><div><strong>Cover FB mới</strong> - cập nhật ảnh bìa fanpage theo KV phiên bản 2.0</div></li>
+                <li><div class="li-dot" style="background:var(--blue)"></div><div><strong>Bài social + Story</strong> - chuỗi nội dung reveal tính năng, USP, trải nghiệm thực tế</div></li>
+                <li><div class="li-dot" style="background:var(--blue)"></div><div><strong>Mini game đoán tên sản phẩm</strong> - tạo tương tác, thu thập data khách quan tâm</div></li>
+                <li><div class="li-dot" style="background:var(--blue)"></div><div><strong>Retarget Ads</strong> - chạy lại tệp đã tương tác và khách cũ của Dr.Forskin</div></li>
+              </ul>
+            </div>
+            <div class="channel-visual">
+              <img src="Campaign RA MẮT SERUM/fanpage.png" alt="Fanpage 30Shine Shop">
+            </div>
+          </div>
+        </div>
+
+        <div class="channel-section">
+          <div class="channel-header">
+            <div class="ch-icon-wrap" style="background:#f0fdf4;">🌐</div>
+            <div class="ch-meta">
+              <div class="ch-title">Website 30Shine Shop / 30Shine</div>
+              <div class="ch-sub">Cập nhật toàn bộ PDP, banner, tên gọi và hình ảnh sản phẩm mới</div>
+            </div>
+          </div>
+          <div class="channel-body-split">
+            <div class="channel-desc">
+              <ul>
+                <li><div class="li-dot" style="background:var(--green)"></div><div><strong>Banner web</strong> - thay banner trang chủ và danh mục theo KV 2.0</div></li>
+                <li><div class="li-dot" style="background:var(--green)"></div><div><strong>Cập nhật PDP</strong> - chỉnh toàn bộ tên, ảnh, mô tả, thông số kỹ thuật theo sản phẩm mới</div></li>
+                <li><div class="li-dot" style="background:var(--green)"></div><div><strong>Offer đồng bộ</strong> - 599k tặng mặt nạ; combo serum + sữa rửa mặt tặng thêm set dao cạo</div></li>
+              </ul>
+            </div>
+            <div class="channel-visual">
+              <img src="Campaign RA MẮT SERUM/website.png" alt="Website 30Shine Shop">
+            </div>
+          </div>
+        </div>
+
+        <div class="channel-section">
+          <div class="channel-header">
+            <div class="ch-icon-wrap" style="background:#fff7ed;">🛍️</div>
+            <div class="ch-meta">
+              <div class="ch-title">Sàn TMĐT: TikTok Shop / Shopee / Lazada</div>
+              <div class="ch-sub">Nơi ra doanh thu chính của kênh online - listing, flash sale, affiliate</div>
+            </div>
+          </div>
+          <div class="channel-body-split">
+            <div class="channel-desc">
+              <ul>
+                <li><div class="li-dot" style="background:var(--amber)"></div><div><strong>Cập nhật gian hàng</strong> - tên, ảnh, mô tả, thông số kỹ thuật đồng bộ với v2.0</div></li>
+                <li><div class="li-dot" style="background:var(--amber)"></div><div><strong>Flash sale 72h</strong> - kích hoạt ngay sau reveal chính thức, đẩy doanh số mạnh trong tuần đầu</div></li>
+                <li><div class="li-dot" style="background:var(--amber)"></div><div><strong>Affiliate diện rộng</strong> - mở affiliate cho creator nhỏ đẩy traffic đến gian hàng sàn</div></li>
+              </ul>
+            </div>
+            <div class="channel-visual">
+              <img src="Campaign RA MẮT SERUM/Shopee.jpg" alt="Ảnh minh họa gian hàng Shopee">
+            </div>
+          </div>
+        </div>
+
+        <div class="channel-section">
+          <div class="channel-header">
+            <div class="ch-icon-wrap" style="background:#faf5ff;">🎥</div>
+            <div class="ch-meta">
+              <div class="ch-title">KOC & Affiliate</div>
+              <div class="ch-sub">6 KOC nam nhận diện + chuyển đổi · Affiliate diện rộng · Livestream giới thiệu v2.0</div>
+            </div>
+          </div>
+          <div class="koc-frames-outer">
+          <div class="koc-grid">
+            <div class="koc-card"><img src="Campaign RA MẮT SERUM/KOC1.png" alt="KOC 1"><div class="koc-label">KOC 1 · Review serum nam</div></div>
+            <div class="koc-card"><img src="Campaign RA MẮT SERUM/KOC2.png" alt="KOC 2"><div class="koc-label">KOC 2 · Unboxing v2.0</div></div>
+            <div class="koc-card"><img src="Campaign RA MẮT SERUM/KOC3.png" alt="KOC 3"><div class="koc-label">KOC 3 · Da dầu/hỗn hợp</div></div>
+            <div class="koc-card"><img src="Campaign RA MẮT SERUM/KOC4.png" alt="KOC 4"><div class="koc-label">KOC 4 · Routine nhanh</div></div>
+          </div>
+          <div style="margin-top:18px;display:flex;flex-direction:column;gap:9px;">
+            <div style="display:flex;gap:10px;font-size:13.5px;color:var(--muted);"><div class="li-dot" style="background:var(--violet);margin-top:7px;flex-shrink:0;"></div><div><strong>6 KOC nam nhận diện + chuyển đổi</strong> - ưu tiên creator skincare nam, có tệp fan thật, đã test sản phẩm tương tự</div></div>
+            <div style="display:flex;gap:10px;font-size:13.5px;color:var(--muted);"><div class="li-dot" style="background:var(--violet);margin-top:7px;flex-shrink:0;"></div><div><strong>Nội dung ưu tiên:</strong> Unboxing v2.0, thử texture thấm nhanh tức thì, trước/sau 2 tuần sử dụng</div></div>
+            <div style="display:flex;gap:10px;font-size:13.5px;color:var(--muted);"><div class="li-dot" style="background:var(--violet);margin-top:7px;flex-shrink:0;"></div><div><strong>Livestream giới thiệu</strong> - trực tiếp trên TikTok Shop kết hợp flash sale, demo thử trực tiếp</div></div>
+          </div>
+          </div>
+        </div>
+
+        <div class="channel-heading offline">KÊNH OFFLINE</div>
+
+        <div class="channel-section">
+          <div class="channel-header">
+            <div class="ch-icon-wrap" style="background:#f0f9ff;">📺</div>
+            <div class="ch-meta">
+              <div class="ch-title">Màn hình LED salon + Wifi marketing</div>
+              <div class="ch-sub">Phát liên tục tại hệ thống 30Shine - nhắc thụ động khi khách ngồi chờ</div>
+            </div>
+          </div>
+          <div class="channel-body-split">
+            <div class="channel-desc">
+              <ul>
+                <li><div class="li-dot" style="background:#0ea5e9"></div><div><strong>KV Serum v2.0 trên LED</strong> - phát xen kẽ với nội dung salon thường ngày</div></li>
+                <li><div class="li-dot" style="background:#0ea5e9"></div><div><strong>Mini TVC "1 Chạm Thấm Sâu"</strong> - clip 15-30s, nhấn vào cảm giác thấm nhanh tức thì</div></li>
+                <li><div class="li-dot" style="background:#0ea5e9"></div><div><strong>Wifi Marketing</strong> - khách kết nối wifi salon thấy nội dung giới thiệu Serum v2.0</div></li>
+                <li><div class="li-dot" style="background:#0ea5e9"></div><div><strong>Zalo OA</strong> - nhắn lại cho khách đã từng mua serum, dẫn về salon gần nhất hoặc kênh online</div></li>
+              </ul>
+            </div>
+            <div class="channel-visual">
+              <img src="Campaign RA MẮT SERUM/bangLEDsalon.jpg" alt="Màn hình LED tại salon">
+            </div>
+          </div>
+        </div>
+
+        <div class="section-label">4 bước triển khai chiến dịch</div>
+        <div class="phase-grid">
+          <div class="phase-card">
+            <div class="phase-badge">1</div>
+            <div class="phase-name">Launching</div>
+            <div class="phase-period">8 - 21/5/2026 · 2 tuần</div>
+            <div class="phase-desc">Hàng về ngày 8/5, ra mắt chính thức ngay. Reveal full KV, flash sale 72h trên sàn, 6 KOC nam chạy nhận diện, livestream giới thiệu, cập nhật toàn bộ gian hàng và PDP.</div>
+          </div>
+          <div class="phase-card">
+            <div class="phase-badge">2</div>
+            <div class="phase-name">Reinforce</div>
+            <div class="phase-period">22/5 - 4/6/2026 · 2 tuần</div>
+            <div class="phase-desc">Đẩy doanh số mạnh nhất - combo serum + sữa rửa mặt, retarget tệp đã xem video, affiliate sàn diện rộng, salon upsell trực tiếp sau dịch vụ.</div>
+          </div>
+          <div class="phase-card">
+            <div class="phase-badge">3</div>
+            <div class="phase-name">Normalize</div>
+            <div class="phase-period">5 - 30/6/2026 · ~4 tuần</div>
+            <div class="phase-desc">Bình thường hóa tên mới - review thật, before/after, CRM xin feedback đổi voucher, ranking nội bộ salon, consolidate memory Dr.Forskin trong tâm trí khách.</div>
+          </div>
+          <div class="phase-card">
+            <div class="phase-badge">4</div>
+            <div class="phase-name">Sustain</div>
+            <div class="phase-period">7/2026 trở đi · Dài hạn</div>
+            <div class="phase-desc">Duy trì bán thường, khai thác CRM khách cũ, affiliate thường xuyên, combo với các sản phẩm mới trong hệ Dr.Forskin khi ra mắt tiếp theo.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="page" id="page2">
+      <div class="section container">
+        <div class="section-label">Thông tin sản phẩm mới</div>
+        <div class="product-hero">
+          <div class="product-hero-img">
+            <img src="Campaign RA MẮT SERUM/Page2.jpg" alt="Serum Dr.Forskin 7in1 phiên bản 2.0">
+          </div>
+          <div>
+            <h2 class="section-title">Serum Dr.Forskin 7 trong 1 phiên bản 2.0</h2>
+            <p class="section-sub">Sản phẩm skincare all-in-one cho nam, tập trung vào trải nghiệm <strong>nhanh - tiện - thấm nhanh - không bết rít</strong>, đồng thời củng cố độ tin cậy bằng nguồn gốc Hàn Quốc và định vị phòng Lab.</p>
+            <div class="spec-grid">
+              <div class="spec-box"><div class="spec-lbl">Nguồn gốc</div><div class="spec-val">Hàn Quốc</div></div>
+              <div class="spec-box"><div class="spec-lbl">Nhà sản xuất</div><div class="spec-val">Woosin Cosmetics · 40+ năm kinh nghiệm</div></div>
+              <div class="spec-box"><div class="spec-lbl">Định lượng</div><div class="spec-val">120ml</div></div>
+              <div class="spec-box"><div class="spec-lbl">Giá bán</div><div class="spec-val big">599.000 VNĐ</div></div>
+              <div class="spec-box" style="grid-column:1/-1"><div class="spec-lbl">Mã ERP mới</div><div class="spec-val">(6107) Tinh chất dưỡng da Dr For Skin All In One Serum For Men 120ml - SP06071</div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-label">Điểm cải tiến cần nhân viên nắm</div>
+        <div class="difference-grid">
+          <div class="diff-card">
+            <img src="Campaign RA MẮT SERUM/Image2.JPG" alt="Bao bì Serum Dr.Forskin">
+            <div class="diff-copy">
+              <h3>Logo & hộp giấy mới</h3>
+              <p><strong>Logo Dr.Forskin mới đã đăng ký sở hữu trí tuệ</strong>, hộp giấy xanh đồng bộ với 2 lọ sữa rửa mặt cùng dòng, giúp khách nhớ đúng thương hiệu.</p>
+            </div>
+          </div>
+          <div class="diff-card">
+            <img src="Campaign RA MẮT SERUM/Chatgel.JPG" alt="Chất gel serum">
+            <div class="diff-copy">
+              <h3>Chất gel thấm nhanh</h3>
+              <p><strong>Công thức Siêu phân tử</strong> nhấn vào cảm giác thấm nhanh tức thì, không bết rít, hợp da nam ngại nặng mặt.</p>
+            </div>
+          </div>
+          <div class="diff-card pump">
+            <img src="Campaign RA MẮT SERUM/Voipump.jpg" alt="Vòi pump cải tiến">
+            <div class="diff-copy">
+              <h3>Vòi pump công thái học</h3>
+              <p><strong>Lấy serum gọn hơn, đều hơn, tiện hơn</strong> trong mỗi lần dùng, dễ demo trực tiếp tại salon.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="announce-grid">
+          <div class="pdf-card">
+            <div class="pdf-icon">CÔNG BỐ</div>
+            <h3>Giấy công bố sản phẩm</h3>
+            <p>Show giấy công bố để tăng cảm giác <strong>minh bạch nguồn gốc</strong> và <strong>an tâm trải nghiệm</strong> khi tư vấn.</p>
+          </div>
+          <div class="card">
+            <h3>Reason to believe</h3>
+            <ul class="list">
+              <li><strong>Dr.Forskin - Thương hiệu Hàn Quốc đến từ phòng Lab</strong>.</li>
+              <li><strong>Sản xuất bởi Woosin Cosmetics</strong>, nhà máy có hơn 40 năm kinh nghiệm nghiên cứu và sản xuất mỹ phẩm.</li>
+              <li><strong>Phân phối độc quyền bởi 30Shine</strong>, giúp khách yên tâm hơn giữa thị trường nhiều sản phẩm chất lượng không đảm bảo, đặc biệt khi đa số nam giới không có nhiều kinh nghiệm trong lựa chọn mỹ phẩm.</li>
+            </ul>
+          </div>
+          <div class="congbo-img">
+            <img src="Campaign RA MẮT SERUM/Congbo.png" alt="Giấy công bố Serum Dr.Forskin">
+          </div>
+        </div>
+
+        <div class="section-label">Key bán hàng chính</div>
+        <h2 class="section-title">Những ý bắt buộc phải nói để bán được bản 2.0</h2>
+        <p class="section-sub">Logic tư vấn nên đi theo một mạch: <strong>sản phẩm mới hơn</strong> → <strong>dùng sướng hơn</strong> → <strong>đáng tin hơn</strong> → <strong>chi phí mỗi ngày rất ổn</strong>.</p>
+        <div class="key-sales">
+          <div class="key-card primary">
+            <div class="key-title">Phiên bản mới cải tiến xuất sắc dành riêng cho đàn ông Việt</div>
+            <ul class="list">
+              <li><strong>Công thức Siêu phân tử:</strong> thấm nhanh tức thì, không bết rít, hợp da nam ngại cảm giác nặng mặt.</li>
+              <li>Vẫn đi cùng key đã test thành công: <strong>7 công dụng trong 1</strong>; <strong>TRẮNG SÁNG LÁNG MỊN</strong>.</li>
+              <li><strong>Vòi pump công thái học cải tiến:</strong> lấy serum gọn hơn, đều hơn, tiện hơn trong mỗi lần dùng.</li>
+            </ul>
+          </div>
+          <div class="key-card">
+            <div class="key-big">Minh bạch nguồn gốc</div>
+            <p><strong>Dr.Forskin - Thương hiệu Hàn Quốc đến từ phòng Lab</strong>, phân phối độc quyền bởi <strong>30Shine</strong>. Đây là điểm giúp khách yên tâm hơn giữa thị trường nhiều sản phẩm chất lượng không đảm bảo, đặc biệt khi đa số nam giới không có nhiều kinh nghiệm chọn mỹ phẩm.</p>
+          </div>
+          <div class="key-card">
+            <div class="key-big">Nhanh · Tiện · 7 trong 1</div>
+            <p>Đàn ông hiện đại <strong>lười chăm da đến mấy</strong> cũng có thể muốn thử — vì đây là <strong>1 sản phẩm thay thế cả "mớ" mỹ phẩm</strong>: trắng sáng, dưỡng ẩm, kiểm soát dầu, se lỗ, phục hồi, mờ thâm, volume-tox. Không cần chu trình phức tạp, không cần nhớ thứ tự bôi — <strong>1 bước duy nhất sau rửa mặt là đủ</strong>. Đúng sản phẩm cho người bận, lười, nhưng vẫn muốn da ổn.</p>
+          </div>
+          <div class="key-card">
+            <div class="key-big">Tiết kiệm</div>
+            <p><strong>5k/ngày để da đẹp</strong>: chuyển giá 599k thành chi phí mỗi ngày, giúp khách thấy quyết định mua dễ chịu hơn thay vì chỉ nhìn tổng giá.</p>
+          </div>
+          <div class="key-card">
+            <div class="key-big">Match insight mới</div>
+            <p>Không bán một chai serum “đổi vỏ”, mà bán cảm giác <strong>đời mới hơn</strong>, <strong>công nghệ hơn</strong>, <strong>dùng sướng hơn</strong> và <strong>đáng tin hơn</strong>.</p>
+          </div>
+        </div>
+
+        <div class="section-label" style="margin-top:30px;">Bộ ảnh sản phẩm triển khai</div>
+        <div class="asset-strip">
+          <img src="Campaign RA MẮT SERUM/Page1.jpg" alt="Ảnh sản phẩm Page1">
+          <img src="Campaign RA MẮT SERUM/Page2_1.jpg" alt="Ảnh sản phẩm Page2_1">
+          <img src="Campaign RA MẮT SERUM/Page2_2.jpg" alt="Ảnh sản phẩm Page2_2">
+          <img src="Campaign RA MẮT SERUM/Page2_3.jpg" alt="Ảnh sản phẩm Page2_3">
+        </div>
+      </div>
+    </section>
+
+    <section class="page" id="page3">
+      <div class="section container">
+        <div class="section-label">Chương trình bán dịp ra mắt</div>
+        <h2 class="section-title">Thống nhất giá bán 599k, khác chiến thuật kéo khách theo kênh</h2>
+        <p class="section-sub">Serum mới bán <strong>599.000đ</strong> ở cả online và offline. Online dùng quà tặng để kéo traffic và kích đơn; offline giữ giá, không ưu đãi tại quầy để tối ưu lợi nhuận và tập trung tư vấn trực tiếp.</p>
+
+        <div class="sales-tip">
+          <h3>TIP cho nhân sự: mã serum cũ vẫn giữ nguyên</h3>
+          <p>Khi bán hàng và tra cứu nội bộ, nhân sự vẫn thao tác theo mã serum đang dùng trước đó. Điểm cần đổi là <strong>tên gọi, hình ảnh, cách tư vấn và câu chuyện phiên bản 2.0</strong>. Khách hỏi thì chốt rõ: sản phẩm đã được làm mới nhận diện và nâng cấp trải nghiệm, còn quy trình bán hàng nội bộ vẫn rất dễ xử lý.</p>
+        </div>
+
+        <div class="offer-grid">
+          <div class="offer-card">
+            <div class="offer-head">
+              <div class="offer-title">Online · Facebook / Web / Sàn</div>
+              <div class="offer-price">599.000đ</div>
+            </div>
+            <div class="offer-body">
+              <div class="gift-row">
+                <div class="gift-box"><strong>Mua 1 Serum Dr.Forskin 7in1:</strong><br>Tặng 1 mặt nạ collagen cao cấp.</div>
+                <div class="gift-box"><strong>Combo Serum + Sữa rửa mặt Dr.Forskin:</strong><br>Tặng 1 mặt nạ collagen cao cấp + set 5 dao cạo râu Dorco.</div>
+              </div>
+              <ul class="list">
+                <li><strong>Fanpage 30Shine Shop:</strong> kéo khách cũ mua lại, xử lý inbox/comment, nhắc tên gọi mới.</li>
+                <li><strong>Website và sàn:</strong> đồng bộ cùng chương trình quà tặng, ảnh sản phẩm và thông điệp bán hàng.</li>
+                <li><strong>TikTok/Shopee/Lazada:</strong> phối hợp 6 KOC nam và affiliate để kéo traffic mới.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="offer-card">
+            <div class="offer-head offline">
+              <div class="offer-title">Offline · Salon 30Shine</div>
+              <div class="offer-price">599.000đ</div>
+            </div>
+            <div class="offer-body">
+              <div class="gift-row">
+                <div class="gift-box green"><strong>Không ưu đãi tại quầy:</strong><br>Offline tối ưu lợi nhuận, không dùng quà tặng để giảm biên.</div>
+                <div class="gift-box green"><strong>Zalo OA:</strong><br>Nhắn lại tệp khách đã từng mua serum, dẫn về salon hoặc kênh online phù hợp.</div>
+              </div>
+              <ul class="list">
+                <li>SALE SUP phối hợp training kịch bản tư vấn trực tiếp.</li>
+                <li>Tester tại quầy để khách cảm nhận <strong>thấm nhanh - không bết rít</strong>.</li>
+                <li>LED salon và wifi marketing tăng tần suất nhìn thấy trong thời gian khách ở salon.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="sales-visuals">
+          <div class="sales-shot"><img src="Campaign RA MẮT SERUM/Shopee.jpg" alt="Shopee Serum Dr.Forskin"><div>Sàn TMĐT · Offer và social proof</div></div>
+          <div class="sales-shot"><img src="Campaign RA MẮT SERUM/Image1.JPG" alt="Serum tại quầy salon"><div>Salon · Tester và tư vấn trực tiếp</div></div>
+          <div class="sales-shot"><img src="Campaign RA MẮT SERUM/Offline_salon.jpg" alt="Tư vấn khách tại salon"><div>Offline · Tối ưu lợi nhuận qua upsell</div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="page" id="page4">
+      <div class="section container">
+        <div class="section-label">Kịch bản xử lý tình huống</div>
+        <h2 class="section-title">Script dùng cho Page, CSKH, nhân sự salon và SALE SUP training</h2>
+        <div class="faq-intro">Ngôn từ bên dưới có thể dùng cho chat hoặc tư vấn trực tiếp. Phần trong ngoặc là gợi ý cách nói khi nhân sự đang đứng tại salon, có sản phẩm/tester trong tay.</div>
+
+        <div class="faq-grid">
+          <div class="faq-card">
+            <div class="question">“Cái này khác gì bản cũ em?”</div>
+            <div class="answer">Dạ bản 2.0 lần này nâng cấp 3 điểm dễ thấy nhất anh ạ: <strong>công thức Siêu phân tử</strong> thấm nhanh hơn, <strong>vòi pump công thái học</strong> bấm gọn hơn và <strong>bao bì Dr.Forskin mới</strong> nhìn xịn, đồng bộ hơn. Anh cứ thử dùng là thấy da mịn cực, trải nghiệm ok hơn rất nhiều, không hề ảo đâu ạ. <br><br>(Tại salon: cho khách bấm thử tester lên mu bàn tay, chờ vài giây rồi chốt: “Anh thấy nó ráo nhanh và mịn tay hơn không, dùng trên mặt sẽ sướng hơn nhiều ạ.”)</div>
+          </div>
+          <div class="faq-card">
+            <div class="question">“Hộp giấy trước màu đen, giờ xanh xanh, có fake không?”</div>
+            <div class="answer">Dạ không anh nha. Đây là bao bì mới của phiên bản 2.0, chuyển sang tone xanh để đồng bộ với 2 lọ sữa rửa mặt cùng dòng Dr.Forskin nên nhìn khác bản cũ là đúng ạ. Anh cứ mua ở những kênh chính thống của 30Shine thì yên tâm, không bao giờ có chuyện fake đâu anh. <br><br>(Tại salon: đưa hộp cho khách xem logo, thông tin nhà sản xuất, mã sản phẩm và chốt: “Anh lấy tại salon/30Shine Shop là yên tâm hàng chuẩn ạ.”)</div>
+          </div>
+          <div class="faq-card">
+            <div class="question">“Mùi lần này không thơm bằng lần trước thì phải?”</div>
+            <div class="answer">Dạ đúng rồi anh, bản mới mùi nhẹ hơn để ngửi quen hơn, hạn chế kiểu nồng quá dễ khó chịu khi dùng hằng ngày. Nhưng mùi nhẹ hơn hoàn toàn không ảnh hưởng đến chất serum hay công dụng đâu anh ạ. Điểm ngon của bản này vẫn là <strong>thấm nhanh, không bết rít, dùng rất ổn cho da nam</strong>. <br><br>(Tại salon: để khách test lượng nhỏ rồi nói: “Mùi nhẹ nhưng chất vẫn ngon, anh dùng vài hôm sẽ thấy da mịn và thoáng hơn ạ.”)</div>
+          </div>
+          <div class="faq-card">
+            <div class="question">“Cái này với chai DABO xanh lá có phải là một không?”</div>
+            <div class="answer">Dạ không anh ơi. Serum 7in1 này là sản phẩm riêng của <strong>Dr.Forskin</strong>, bên em có phòng lab nghiên cứu riêng, công thức riêng cho nam và nhà máy sản xuất riêng anh ạ. Phiên bản 2.0 vừa ra mắt được nâng cấp thêm công thức Siêu phân tử và vòi pump công thái học cải tiến. Anh đang quan tâm vấn đề da nào để em tư vấn kỹ hơn ạ?</div>
+          </div>
+          <div class="faq-card">
+            <div class="question">“DABO với bên em là một à? Anh tưởng trước là DABO mà nhỉ?”</div>
+            <div class="answer">Dạ sản phẩm bên em là <strong>Serum Dr.Forskin 7 trong 1</strong>, thuộc Dr.Forskin anh nhé. Bên em có <strong>công thức riêng</strong>, <strong>nhà máy riêng</strong> và định hướng nghiên cứu cho da đàn ông Việt riêng nên anh cứ hiểu đây là sản phẩm Dr.Forskin chính hãng của 30Shine ạ. Bản 2.0 này bên em đang tự tin nhất vì dùng sướng hơn, thấm nhanh hơn và tư vấn cho da nam rất ổn. Anh đang bị dầu, sạm hay khô để em chọn cách dùng chuẩn cho anh luôn nhé?</div>
+          </div>
+          <div class="faq-card">
+            <div class="question">“Hai con này có phải là một không em? Khác nhau chỗ nào?”</div>
+            <div class="answer">Dạ trên thị trường có nhiều serum dùng dạng vỏ pump tương tự vì đây là bao bì phổ biến cho serum nam. Nhưng quan trọng là <strong>công thức, nguồn gốc và trải nghiệm dùng</strong>. Serum Dr.Forskin 7in1 bên em bán nhiều năm rồi, tệp khách cũ quay lại khá tốt. Em gửi anh feedback khách dùng sau 2 tuần để anh tham khảo nha. <br><br>(Tại salon: hỏi da khách đang dầu, sạm hay khô để kéo về tư vấn nhu cầu.)</div>
+          </div>
+          <div class="faq-card">
+            <div class="question">“Sao bên em bán đắt hơn bên họ?”</div>
+            <div class="answer">Dạ sản phẩm Serum Dr.Forskin 7in1 bên em được nghiên cứu trong phòng lab riêng, sản xuất tại nhà máy riêng, nguyên liệu đầu vào khác và nhập khẩu chính ngạch từ Hàn Quốc nên giá thành chắc chắn khác anh ạ. Mình nên quan tâm nhất là hiệu quả và mức độ yên tâm khi dùng. Em gửi anh feedback khách dùng sau 2 tuần để anh tham khảo, rồi anh cho em xin ảnh da hiện tại để em tư vấn kỹ hơn nè. <br><br>(Tại salon: quy đổi 599k thành khoảng 5k/ngày để khách dễ hình dung.)</div>
+          </div>
+          <div class="faq-card">
+            <div class="question">“Da dầu/hỗn hợp/đen sạm thì dùng sao?”</div>
+            <div class="answer">Dạ bản này bên em đang tự tin giới thiệu nhất cho anh em da dầu, da hỗn hợp hoặc da nhìn xỉn màu. Serum có hướng <strong>thấm nhanh - không bết rít - hỗ trợ sáng da và kiểm soát dầu</strong>. Anh dùng sau rửa mặt, lấy 1-2 pump, thoa đều sáng hoặc tối là được ạ. <br><br>(Tại salon: hướng dẫn thao tác trực tiếp bằng tester.)</div>
+          </div>
+        </div>
+
+        <div class="dont-box">
+          <h3>Lưu ý KHÔNG dùng khi tư vấn</h3>
+          <ul class="list">
+            <li>Không nói: “Bên em tốt hơn loại kia.” vì đây là so sánh trực tiếp, mất tư cách nhãn lớn.</li>
+            <li>Không nói: “Loại kia là hàng OEM / hàng kém chất lượng.” vì hạ bệ và có rủi ro pháp lý.</li>
+            <li>Không nói: “Bên em nghiên cứu kỹ hơn nên đắt hơn.” nếu không có bằng chứng cụ thể trong tay.</li>
+            <li>Không nói: “Em không biết anh ạ.” Nếu chưa chắc, dùng: “Em kiểm tra lại thông tin chính xác rồi phản hồi anh ngay ạ.”</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    Dr.Forskin 7in1 phiên bản 2.0 · Một chạm thấm sâu - Bảy tác động thấu · Tài liệu nội bộ
+  </footer>
+
+<script>
+  function showPage(n, btn) {
+    document.querySelectorAll('.page').forEach(page => page.classList.remove('active'));
+    document.querySelectorAll('.nav-tab').forEach(tab => tab.classList.remove('active'));
+    document.getElementById('page' + n).classList.add('active');
+    btn.classList.add('active');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+</script>
+</body>
+</html>
